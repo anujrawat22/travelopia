@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Form</a></li>
+            <li><a href="./alldata.html">Submissions</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div>
+            <form id="form">
+                <label for="name">Name <span>*</span></label>
+                <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                <label for="email">Email <span>*</span></label>
+                <input type="text" name="email" id="email" placeholder="e.g. hello@xyz.com" required>
+                <label for="destination">Destination <span>*</span></label>
+                <select name="destination" id="destination" required>
+                    
+                    <option value="India">India</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Europe">Europe</option>
+                </select>
+                <label for="numof_travellers">Number of Travellers <span>*</span></label>
+                <input type="number" name="numof_travellers" id="numof_travellers" required placeholder="e.g. 5" min="0">
+                <label for="budget">Budget Per Person <span>*</span></label>
+                <input type="number" name="budget" id="budget" required placeholder="$" min="0">
+                <input type="submit" value="Add Data">
+            </form>
+        </div>
+
+        <div id="alert">Data Added Sucessfully</div>
+    </section>
+</body>
+</html>
+
+<script src="./src/index.js"></script>

@@ -5,13 +5,13 @@ form.addEventListener("submit",addData)
 async function addData(e){
     console.log("ok")
     e.preventDefault()
-    const name = document.getElementById("name")
-    const email = document.getElementById("email")
-    const destination = document.getElementById("destination")
-    const numof_travellers = +document.getElementById("numof_travellers")
-    const budget = +document.getElementById("budget")
+    const name = document.getElementById("name").value
+    const email = document.getElementById("email").value
+    const destination = document.getElementById("destination").value
+    const number_of_travellers = +document.getElementById("numof_travellers").value
+    const budget_Per_person = +document.getElementById("budget").value
      let obj = {
-        name,email,destination,numof_travellers,budget
+        name,email,destination,number_of_travellers,budget_Per_person
      }
 
      obj = JSON.stringify(obj)

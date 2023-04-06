@@ -1,8 +1,70 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Inter", ui-sans-serif, system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav{
+    
+    height: 10vh;
+    margin-bottom: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #042c41;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+ul{
+    display: flex;
+    
+    /* border: 1px solid red; */
+    width: 30%;
+    justify-content: space-around;
+    
+    list-style-type: none;
+    color: white;
+}
+
+a{
+    color : white;
+    text-decoration-line: none;
 }
 
 table{
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+
+table{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+th{
+    background-color: rgb(19, 77, 108);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+
+tr:nth-child(even){background-color: #f1f1f1;}
+
+tr:hover {background-color: #ddd;}
+
+td,th{
+    border: 1px solid rgb(126, 126, 126);
+    text-align: center;
+    padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+
+.num_of_travellers{
     border: 1px solid red;
 }

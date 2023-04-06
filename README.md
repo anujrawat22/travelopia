@@ -4,6 +4,8 @@
 
 ## Home page
 
-![image](https://user-images.githubusercontent.com/60172576/230009003-c668cad6-9e40-4f98-abd8-708e1503b17a.png)
+![image](https://github.com/anujrawat22/travelopia_frontend/blob/main/Screenshot%20(191).png)
 
 ## Submissions page
+
+![image](https://github.com/anujrawat22/travelopia_frontend/commit/fcb9212310ffd21e4f236e52884b180c569c55f1)

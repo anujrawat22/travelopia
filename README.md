@@ -1,4 +1,4 @@
-# travelopia
+# Travelopia Frontend
 
 ## Deployed on  Netlify : https://eclectic-centaur-289b56.netlify.app/index.html
 
